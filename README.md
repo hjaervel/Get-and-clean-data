@@ -15,3 +15,22 @@ This Github repository contains the following files:
 - ‘CodeBook.md’:Describes the variables, the data, and transformations or work that        
    was performed to clean up the original dataset  
 - 'README.md’: Describes the files in the repository and how they are connected
+
+run_analysis.R
+==============
+The R script run_analysis.R downloads the original dataset from 
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip , 
+unzips it and reads the following data into R:
+x_test         test set
+y_test         test labels
+subject_test   subject information for the test set
+x_train        training set
+y_train        training labels
+subject_train  subject information, training set
+
+The script merges the test and the training sets into one data frame and keeps the variables specified in the
+course assignment. The the script inserts diescriptive activity and variable names to create a tidy dataset.
+Finally, a new data frame is created using the dplyr package, which contains the averaged measurement for each
+subject and activity. 
+
+The cleaned datasets are describen in CodeBook.md.
