@@ -18,7 +18,7 @@ This Github repository contains the following files:
 
 run_analysis.R
 ==============
-The R script run_analysis.R downloads the original dataset from 
+The R script run_analysis.R uses the dplyr and downloader packages of R. It downloads the original dataset from 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip , 
 unzips it and reads the following data into R:
 x_test         test set
