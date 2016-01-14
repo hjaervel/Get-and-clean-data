@@ -1,6 +1,7 @@
 #R script to perform the analysis for the Getting and cleaning data Course project.
 #This script uses the following packages: downloader, dplyr
 
+setwd("~/Hanna/Coursera/Getting_and_cleaning_data")
 #0. Download, unzip, make train and test data frames
 #Download and unzip the dataset
 install.packages("downloader")
