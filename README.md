@@ -33,4 +33,4 @@ course assignment. The the script inserts diescriptive activity and variable nam
 Finally, a new data frame is created using the dplyr package, which contains the averaged measurement for each
 subject and activity. 
 
-The cleaned datasets are describen in CodeBook.md.
+The clean datasets are described in CodeBook.md.
